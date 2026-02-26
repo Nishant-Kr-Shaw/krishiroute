@@ -4,20 +4,20 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "dest": "/backend/server.js"
+            "destination": "/backend/server.js"
         },
         {
             "source": "/assets/(.*)",
-            "dest": "/frontend/build/assets/$1"
+            "destination": "/frontend/build/assets/$1"
         },
         {
             "source": "/(.*)",
-            "dest": "/frontend/build/$1",
+            "destination": "/frontend/build/$1",
             "continue": true
         },
         {
             "source": "/(.*)",
-            "dest": "/frontend/build/index.html"
+            "destination": "/frontend/build/index.html"
         }
     ]
 }
