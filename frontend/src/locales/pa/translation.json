@@ -1,0 +1,166 @@
+{
+    "appTitle": "ਕ੍ਰਿਸ਼ੀ ਰੂਟ",
+    "appSubtitle": "ਡੇਟਾ-ਅਧਾਰਿਤ ਲੌਜਿਸਟਿਕਸ ਫੈਸਲਿਆਂ ਨਾਲ ਕਿਸਾਨਾਂ ਨੂੰ ਸਸ਼ਕਤ ਬਣਾਉਣਾ",
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "error": "ਗਲਤੀ:",
+    "optimizationFailed": "ਓਪਟੀਮਾਈਜੇਸ਼ਨ ਅਸਫਲ ਰਹੀ",
+    "connectionError": "ਸਰਵਰ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਬੈਕਐਂਡ ਚੱਲ ਰਿਹਾ ਹੈ।",
+    "features": "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
+    "about": "ਬਾਰੇ",
+    "techStack": "ਰੀਐਕਟ • ਨੋਡ.ਜੇਐਸ • ਮੋਂਗੋ-ਡੀਬੀ • ਲੀਫਲੈਟ",
+    "rightsReserved": "© 2024 ਕ੍ਰਿਸ਼ੀ ਰੂਟ। ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ।",
+    "fuel": {
+        "liveDiesel": "ਲਾਈਵ ਡੀਜ਼ਲ ਦਰ"
+    },
+    "hero": {
+        "title": "ਸਮਾਰਟ ਲੌਜਿਸਟਿਕਸ ਨਾਲ ਆਪਣਾ ਮੁਨਾਫ਼ਾ ਵਧਾਓ",
+        "subtitle": "ਆਪਣੀ ਫ਼ਸਲ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਮੰਡੀ ਲੱਭੋ, ਜੋ ਕੀਮਤ ਅਤੇ ਆਵਾਜਾਈ ਦੇ ਖਰਚਿਆਂ ਲਈ ਅਨੁਕੂਲ ਹੈ।",
+        "formTitle": "ਸ਼ਿਪਮੈਂਟ ਦੇ ਵੇਰਵੇ ਦਰਜ ਕਰੋ"
+    },
+    "form": {
+        "cropType": "ਫ਼ਸਲ ਦੀ ਕਿਸਮ",
+        "quantityQuintals": "ਮਾਤਰਾ",
+        "vehicleType": "ਵਾਹਨ ਦੀ ਕਿਸਮ",
+        "customVehicle": "ਕਸਟਮ ਵਾਹਨ",
+        "addCustomVehicle": "ਕਸਟਮ ਵਾਹਨ ਸ਼ਾਮਲ ਕਰੋ",
+        "removeCustomVehicle": "ਕਸਟਮ ਵਾਹਨ ਹਟਾਓ",
+        "vehicleName": "ਵਾਹਨ ਦਾ ਨਾਮ",
+        "vehicleNamePlaceholder": "ਉਦਾਹਰਨ ਲਈ, ਮੇਰਾ ਟਰੱਕ, ਕਿਰਾਏ ਦੀ ਵੈਨ",
+        "mileageRate": "ਮਾਈਲੇਜ ਦਰ (₹/ਕਿ.ਮੀ.)",
+        "costPreview": "100 ਕਿਲੋਮੀਟਰ ਲਈ ਲਾਗਤ",
+        "yourLocation": "ਤੁਹਾਡੀ ਲੋਕੇਸ਼ਨ",
+        "useGPS": "GPS ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "gettingLocation": "ਪ੍ਰਾਪਤ ਕਰ ਰਿਹਾ ਹੈ...",
+        "search": "ਖੋਜੋ",
+        "manual": "ਮੈਨੂਅਲ",
+        "enterCropName": "ਫ਼ਸਲ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ (ਉਦਾਹਰਨ ਲਈ, ਮੱਕੀ, ਗੰਨਾ, ਕਪਾਹ)",
+        "latitude": "ਲੈਟੀਟਿਊਡ",
+        "longitude": "ਲੌਂਗੀਟਿਊਡ",
+        "findBestMandi": "ਸਭ ਤੋਂ ਵਧੀਆ ਮੰਡੀ ਲੱਭੋ",
+        "optimizing": "ਓਪਟੀਮਾਈਜ਼ ਕਰ ਰਿਹਾ ਹੈ...",
+        "headerSubtitlePart1": "ਆਪਣੀ ਫ਼ਸਲ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਮੰਡੀ ਲੱਭੋ",
+        "headerSubtitlePart2": "ਮੁਨਾਫ਼ਾ"
+    },
+    "crops": {
+        "onion": "ਪਿਆਜ਼",
+        "potato": "ਆਲੂ",
+        "tomato": "ਟਮਾਟਰ",
+        "rice": "ਚੌਲ",
+        "wheat": "ਕਣਕ",
+        "other": "✏️ ਹੋਰ (ਕਸਟਮ)"
+    },
+    "vehicles": {
+        "tractor": "ਟਰੈਕਟਰ",
+        "tataAce": "ਟਾਟਾ ਏਸ",
+        "truck": "ਟਰੱਕ",
+        "miniTruck": "ਮਿੰਨੀ ਟਰੱਕ",
+        "tempo": "ਟੈਂਪੂ"
+    },
+    "results": {
+        "title": "ਓਪਟੀਮਾਈਜੇਸ਼ਨ ਨਤੀਜੇ",
+        "subtitle": "{{distance}} ਕਿਲੋਮੀਟਰ ਦੇ ਘੇਰੇ ਵਿੱਚ {{total}} ਮੰਡੀਆਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕੀਤਾ",
+        "perishability": {
+            "warning": "ਫ਼ਸਲ ਖ਼ਰਾਬ ਹੋਣ ਦੀ ਚੇਤਾਵਨੀ",
+            "spoilage": "ਸੰਭਾਵਿਤ ਨੁਕਸਾਨ",
+            "potentialLoss": "ਸੰਭਾਵਿਤ ਘਾਟਾ",
+            "adjustedProfit": "ਐਡਜਸਟ ਕੀਤਾ ਮੁਨਾਫ਼ਾ",
+            "localAlternative": "ਸਥਾਨਕ ਵਿਕਲਪ 'ਤੇ ਵਿਚਾਰ ਕਰੋ"
+        },
+        "winner": {
+            "bestChoice": "ਸਭ ਤੋਂ ਵਧੀਆ ਚੋਣ",
+            "netProfit": "ਸ਼ੁੱਧ ਮੁਨਾਫ਼ਾ",
+            "distance": "ਦੂਰੀ",
+            "price": "ਕੀਮਤ",
+            "extraProfit": "ਸਥਾਨਕ ਮੰਡੀ ਨਾਲੋਂ ₹{{amount}} ਵੱਧ ਕਮਾਓ"
+        },
+        "recommendation": {
+            "bestIsLocal": "ਤੁਹਾਡਾ ਸਭ ਤੋਂ ਵਧੀਆ ਵਿਕਲਪ {{bestMandi}} ਹੈ, ਜੋ ਕਿ ਸਭ ਤੋਂ ਨਜ਼ਦੀਕੀ ਬਾਜ਼ਾਰ ਵੀ ਹੈ। ਭਰੋਸੇ ਨਾਲ ਅੱਗੇ ਵਧੋ!",
+            "travelForProfit": "{{bestMandi}} 'ਤੇ ਜਾਓ! ਤੁਸੀਂ ਆਪਣੀ ਸਥਾਨਕ ਮਾਰਕੀਟ {{localMandi}} ਨਾਲੋਂ ₹{{amount}} ਵੱਧ ਕਮਾਓਗੇ।",
+            "slightProfit": "{{bestMandi}} ਥੋੜ੍ਹਾ ਬਿਹਤਰ ਮੁਨਾਫ਼ਾ ਦਿੰਦੀ ਹੈ (₹{{amount}} ਹੋਰ), ਪਰ {{localMandi}} ਨੇੜੇ ਹੈ। ਬਾਲਣ ਅਤੇ ਸਮੇਂ ਦੇ ਖਰਚਿਆਂ 'ਤੇ ਵਿਚਾਰ ਕਰੋ।",
+            "stickToLocal": "{{localMandi}} ਨਾਲ ਜੁੜੇ ਰਹੋ - ਇਹ ਨੇੜੇ ਹੈ ਅਤੇ ਸਭ ਤੋਂ ਵਧੀਆ ਮੁਨਾਫ਼ਾ ਦਿੰਦੀ ਹੈ!",
+            "worthExtraDistance": "₹{{amount}}/ਕਿ.ਮੀ. ਦਾ ਲਾਭ ਵਾਧੂ ਦੂਰੀ ਨੂੰ ਜਾਇਜ਼ ਠਹਿਰਾਉਂਦਾ ਹੈ",
+            "notWorthExtraDistance": "ਵਾਧੂ ਦੂਰੀ ਸ਼ਾਇਦ ਮੁਨਾਫ਼ੇ ਦੇ ਲਾਭ ਨੂੰ ਜਾਇਜ਼ ਨਾ ਠਹਿਰਾਵੇ"
+        },
+        "nearestList": {
+            "title": "ਮੰਡੀ ਤੁਲਨਾ ਵਿਸ਼ਲੇਸ਼ਣ",
+            "sortedBy": "{{count}} ਮਾਰਕੀਟ ਵਿਕਲਪਾਂ ਲਈ ਵਿਸਤ੍ਰਿਤ ਜਾਣਕਾਰੀ",
+            "bestProfit": "ਵਧੀਆ ਮੁਨਾਫ਼ਾ",
+            "nearest": "ਸਭ ਤੋਂ ਨੇੜੇ",
+            "closest": "ਨੇੜਲਾ",
+            "volatilityAlert": "ਕੀਮਤ ਗਿਰਾਵਟ ਦੀ ਚੇਤਾਵਨੀ (3 ਦਿਨ)",
+            "km": "ਕਿ.ਮੀ.",
+            "perQ": "/ਕੁਇੰਟਲ",
+            "revenue": "ਆਮਦਨ",
+            "transportCost": "ਆਵਾਜਾਈ ਲਾਗਤ",
+            "handlingCost": "ਹੈਂਡਲਿੰਗ ਲਾਗਤ",
+            "totalCost": "ਕੁੱਲ ਲਾਗਤ",
+            "margin": "ਮਾਰਜਨ"
+        },
+        "featuresList": {
+            "realTimePrices": "ਰੀਅਲ-ਟਾਈਮ ਮੰਡੀ ਕੀਮਤਾਂ",
+            "profitOptimization": "ਮੁਨਾਫ਼ਾ ਓਪਟੀਮਾਈਜੇਸ਼ਨ",
+            "routePlanning": "ਰੂਟ ਪਲਾਨਿੰਗ",
+            "costAnalysis": "ਲਾਗਤ ਵਿਸ਼ਲੇਸ਼ਣ"
+        }
+    },
+    "mandis": {
+        "Kolkata Mandi": "ਕੋਲਕਾਤਾ ਮੰਡੀ",
+        "Howrah Mandi": "ਹਾਵੜਾ ਮੰਡੀ",
+        "Barasat Mandi": "ਬਾਰਾਸਾਤ ਮੰਡੀ",
+        "Durgapur Mandi": "ਦੁਰਗਾਪੁਰ ਮੰਡੀ",
+        "Siliguri Mandi": "ਸਿਲੀਗੁੜੀ ਮੰਡੀ",
+        "Asansol Mandi": "ਆਸਨਸੋਲ ਮੰਡੀ",
+        "Local Market (Nearby)": "ਸਥਾਨਕ ਬਾਜ਼ਾਰ (ਨੇੜੇ)",
+        "District Main Mandi": "ਜ਼ਿਲ੍ਹਾ ਮੁੱਖ ਮੰਡੀ",
+        "Regional Trading Center": "ਖੇਤਰੀ ਵਪਾਰ ਕੇਂਦਰ"
+    },
+    "trends": {
+        "Mandi usually peaks on Mondays": "ਮੰਡੀ ਆਮ ਤੌਰ 'ਤੇ ਸੋਮਵਾਰ ਨੂੰ ਸਿਖਰ 'ਤੇ ਹੁੰਦੀ ਹੈ",
+        "Mandi usually peaks on Wednesdays": "ਮੰਡੀ ਆਮ ਤੌਰ 'ਤੇ ਬੁੱਧਵਾਰ ਨੂੰ ਸਿਖਰ 'ਤੇ ਹੁੰਦੀ ਹੈ",
+        "Mandi usually peaks on Fridays": "ਮੰਡੀ ਆਮ ਤੌਰ 'ਤੇ ਸ਼ੁੱਕਰਵਾਰ ਨੂੰ ਸਿਖਰ 'ਤੇ ਹੁੰਦੀ ਹੈ",
+        "Mandi usually peaks on Saturdays": "ਮੰਡੀ ਆਮ ਤੌਰ 'ਤੇ ਸ਼ਨੀਵਾਰ ਨੂੰ ਸਿਖਰ 'ਤੇ ਹੁੰਦੀ ਹੈ"
+    },
+    "chart": {
+        "title": "ਮੁਨਾਫ਼ਾ ਤੁਲਨਾ ਚਾਰਟ",
+        "revenue": "ਆਮਦਨ",
+        "totalCost": "ਕੁੱਲ ਲਾਗਤ",
+        "netProfit": "ਸ਼ੁੱਧ ਮੁਨਾਫ਼ਾ",
+        "highestProfit": "ਸਭ ਤੋਂ ਵੱਧ ਮੁਨਾਫ਼ਾ",
+        "profitRange": "ਮੁਨਾਫ਼ਾ ਸੀਮਾ",
+        "averageProfit": "ਔਸਤ ਮੁਨਾਫ਼ਾ"
+    },
+    "map": {
+        "title": "ਰੂਟ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ",
+        "yourLocation": "ਤੁਹਾਡੀ ਲੋਕੇਸ਼ਨ",
+        "distance": "ਦੂਰੀ",
+        "netProfit": "ਸ਼ੁੱਧ ਮੁਨਾਫ਼ਾ",
+        "price": "ਕੀਮਤ",
+        "legend": {
+            "yourLocation": "ਤੁਹਾਡੀ ਲੋਕੇਸ਼ਨ",
+            "bestMandi": "ਸਭ ਤੋਂ ਵਧੀਆ ਮੰਡੀ (ਸਭ ਤੋਂ ਵੱਧ ਮੁਨਾਫ਼ੇ ਵਾਲੀ)",
+            "poolPartners": "ਪੂਲ ਸਾਥੀ",
+            "otherMandis": "ਹੋਰ ਮੰਡੀਆਂ"
+        }
+    },
+    "aboutText": "ਭਾਰਤੀ ਖੇਤੀਬਾੜੀ ਸੈਕਟਰ ਲਈ ਆਧੁਨਿਕ ਤਕਨੀਕ ਨਾਲ ਬਣਾਇਆ ਗਿਆ ਹੈ",
+    "units": {
+        "kg": "ਕਿਲੋ",
+        "quintal": "ਕੁਇੰਟਲ",
+        "ton": "ਟਨ"
+    },
+    "rideShare": {
+        "label": "ਰਾਈਡ ਸ਼ੇਅਰ / ਪੂਲ",
+        "description": "ਟਰੱਕ ਦੇ ਖਰਚਿਆਂ 'ਤੇ 40% ਤੱਕ ਬਚਤ ਕਰਨ ਲਈ ਦੂਜੇ ਕਿਸਾਨਾਂ ਨਾਲ ਪੂਲ ਕਰੋ",
+        "active": "ਰਾਈਡ ਸ਼ੇਅਰ ਸਰਗਰਮ",
+        "savings": "ਰਾਈਡ ਸ਼ੇਅਰ ਬਚਤ: ₹{{amount}}",
+        "opportunity": "ਰਾਈਡ-ਸ਼ੇਅਰ ਦਾ ਮੌਕਾ ਮਿਲਿਆ!",
+        "withPool": "ਪੂਲਿੰਗ ਦੇ ਨਾਲ",
+        "solo": "ਇਕੱਲੇ",
+        "impact": "ਪੂਲਿੰਗ ਆਵਾਜਾਈ ਦੀ ਲਾਗਤ ਨੂੰ 40% ਘਟਾਉਂਦੀ ਹੈ ਅਤੇ ਸ਼ੁੱਧ ਮੁਨਾਫ਼ੇ ਨੂੰ {{percentage}}% ਵਧਾਉਂਦੀ ਹੈ",
+        "nearbyFarmer": "{{name}} ਵੀ ਨੇੜਲੇ ਸਥਾਨ ({{distance}} ਕਿਲੋਮੀਟਰ ਦੂਰ) ਤੋਂ {{mandi}} ਜਾ ਰਹੇ ਹਨ।",
+        "switchNow": "₹{{amount}} ਬਚਾਉਣ ਲਈ ਰਾਈਡ-ਸ਼ੇਅਰ 'ਤੇ ਸਵਿਚ ਕਰੋ",
+        "opportunitiesTitle": "ਨੇੜਲੇ ਪੂਲ ਦੇ ਮੌਕੇ",
+        "opportunitiesSubtitle": "ਜਗ੍ਹਾ ਸਾਂਝੀ ਕਰੋ, ਬਾਲਣ ਦੇ ਖਰਚੇ ਬਚਾਓ!",
+        "joinPool": "ਪੂਲ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ"
+    }
+}

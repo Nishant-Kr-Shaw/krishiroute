@@ -1,0 +1,166 @@
+{
+    "appTitle": "కృషి రూట్",
+    "appSubtitle": "డేటా ఆధారిత లాజిస్టిక్స్ నిర్ణయాలతో రైతులకు సాధికారత కల్పించడం",
+    "loading": "లోడ్ అవుతోంది...",
+    "error": "లోపం:",
+    "optimizationFailed": "ఆప్టిమైజేషన్ విఫలమైంది",
+    "connectionError": "సర్వర్‌కు కనెక్ట్ చేయడం విఫలమైంది. దయచేసి బ్యాకెండ్ నడుస్తున్నట్లు నిర్ధారించుకోండి.",
+    "features": "లక్షణాలు",
+    "about": "గురించి",
+    "techStack": "React • Node.js • MongoDB • Leaflet",
+    "rightsReserved": "© 2024 కృషి రూట్. అన్ని హక్కులు ప్రత్యేకించబడ్డాయి.",
+    "fuel": {
+        "liveDiesel": "లైవ్ డీజిల్ ధర"
+    },
+    "hero": {
+        "title": "స్మార్ట్ లాజిస్టిక్స్‌తో మీ లాభాలను పెంచుకోండి",
+        "subtitle": "ధర మరియు రవాణా ఖర్చుల కోసం ఆప్టిమైజ్ చేయబడిన మీ ఉత్పత్తుల కోసం ఉత్తమ మండిని కనుగొనండి.",
+        "formTitle": "షిప్‌మెంట్ వివరాలను నమోదు చేయండి"
+    },
+    "form": {
+        "cropType": "పంట రకం",
+        "quantityQuintals": "పరిమాణం",
+        "vehicleType": "వాహనం రకం",
+        "customVehicle": "కస్టమ్ వాహనం",
+        "addCustomVehicle": "కస్టమ్ వాహనాన్ని జోడించండి",
+        "removeCustomVehicle": "కస్టమ్ వాహనాన్ని తొలగించండి",
+        "vehicleName": "వాహనం పేరు",
+        "vehicleNamePlaceholder": "ఉదా., నా ట్రక్, రెంటల్ వ్యాన్",
+        "mileageRate": "మైలేజ్ రేటు (₹/కిమీ)",
+        "costPreview": "100కిమీ ఖర్చు",
+        "yourLocation": "మీ స్థానం",
+        "useGPS": "GPS ఉపయోగించండి",
+        "gettingLocation": "పొందుతోంది...",
+        "search": "శోధించండి",
+        "manual": "మాన్యువల్",
+        "enterCropName": "పంట పేరు నమోదు చేయండి (ఉదా., మొక్కజొన్న, చెరకు, పత్తి)",
+        "latitude": "అక్షాంశం",
+        "longitude": "రేఖాంశం",
+        "findBestMandi": "ఉత్తమ మండిని కనుగొనండి",
+        "optimizing": "ఆప్టిమైజ్ చేస్తోంది...",
+        "headerSubtitlePart1": "మీ ఉత్పత్తుల కోసం ఉత్తమ మండిని కనుగొనండి",
+        "headerSubtitlePart2": "లాభం"
+    },
+    "crops": {
+        "onion": "ఉల్లిపాయ",
+        "potato": "బంగాళదుంప",
+        "tomato": "టమాటా",
+        "rice": "వరి",
+        "wheat": "గోధుమ",
+        "other": "✏️ ఇతర (కస్టమ్)"
+    },
+    "vehicles": {
+        "tractor": "ట్రాక్టర్",
+        "tataAce": "టాటా ఏస్",
+        "truck": "ట్రక్",
+        "miniTruck": "మినీ ట్రక్",
+        "tempo": "టెంపో"
+    },
+    "results": {
+        "title": "ఆప్టిమైజేషన్ ఫలితాలు",
+        "subtitle": "{{distance}} కిమీ పరిధిలో {{total}} మండిలను విశ్లేషించారు",
+        "perishability": {
+            "warning": "పంట పాడయ్యే హెచ్చరిక",
+            "spoilage": "ఆశించిన పాడవడం",
+            "potentialLoss": "సంభావ్య నష్టం",
+            "adjustedProfit": "సవరించిన లాభం",
+            "localAlternative": "స్థానిక ఎంపికను పరిగణించండి"
+        },
+        "winner": {
+            "bestChoice": "ఉత్తమ ఎంపిక",
+            "netProfit": "నికర లాభం",
+            "distance": "దూరం",
+            "price": "ధర",
+            "extraProfit": "స్థానిక మండి కంటే ₹{{amount}} ఎక్కువగా సంపాదించండి"
+        },
+        "recommendation": {
+            "bestIsLocal": "మీ ఉత్తమ ఎంపిక {{bestMandi}}, ఇది సమీప మార్కెట్ కూడా. నమ్మకంతో ముందుకు సాగండి!",
+            "travelForProfit": "{{bestMandi}}కి వెనళ్ళండి! మీ స్థానిక మార్కెట్ {{localMandi}} కంటే మీరు ₹{{amount}} ఎక్కువగా సంపాదిస్తారు.",
+            "slightProfit": "{{bestMandi}} కొంచెం మెరుగైన లాభాన్ని అందిస్తుంది (₹{{amount}} ఎక్కువ), కానీ {{localMandi}} దగ్గరగా ఉంది. ఇంధనం మరియు సమయ ఖర్చులను పరిగణించండి.",
+            "stickToLocal": "{{localMandi}}కే కట్టుబడి ఉండండి - ఇది దగ్గరగా ఉంది మరియు ఉత్తమ లాభాన్ని అందిస్తుంది!",
+            "worthExtraDistance": "₹{{amount}}/కిమీ లాభం అదనపు దూరాన్ని సమర్థిస్తుంది",
+            "notWorthExtraDistance": "అదనపు దూరం లాభాన్ని సమర్థించకపోవచ్చు"
+        },
+        "nearestList": {
+            "title": "మండి పోలిక విశ్లేషణ",
+            "sortedBy": "{{count}} మార్కెట్ ఎంపికల కోసం వివరణాత్మక విభజన",
+            "bestProfit": "ఉత్తమ లాభం",
+            "nearest": "సమీప",
+            "closest": "అత్యంత సమీప",
+            "volatilityAlert": "ధరల తగ్గుదల హెచ్చరిక (3 రోజులు)",
+            "km": "కిమీ",
+            "perQ": "/క్విం.",
+            "revenue": "ఆదాయం",
+            "transportCost": "రవాణా ఖర్చు",
+            "handlingCost": "నిర్వహణ ఖర్చు",
+            "totalCost": "మొత్తం ఖర్చు",
+            "margin": "మార్జిన్"
+        },
+        "featuresList": {
+            "realTimePrices": "నిజ-సమయ మండి ధరలు",
+            "profitOptimization": "లాభం ఆప్టిమైజేషన్",
+            "routePlanning": "రూట్ ప్లానింగ్",
+            "costAnalysis": "ఖర్చు విశ్లేషణ"
+        }
+    },
+    "mandis": {
+        "Kolkata Mandi": "కోల్‌కతా మండి",
+        "Howrah Mandi": "హౌరా మండి",
+        "Barasat Mandi": "బారాసత్ మండి",
+        "Durgapur Mandi": "దుర్గాపూర్ మండి",
+        "Siliguri Mandi": "సిలిగురి మండి",
+        "Asansol Mandi": "అసన్సోల్ మండి",
+        "Local Market (Nearby)": "స్థానిక మార్కెట్ (సమీపంలో)",
+        "District Main Mandi": "జిల్లా ప్రధాన మండి",
+        "Regional Trading Center": "ప్రాంతీయ వాణిజ్య కేంద్రం"
+    },
+    "trends": {
+        "Mandi usually peaks on Mondays": "మండి సాధారణంగా సోమవారాల్లో గరిష్టంగా ఉంటుంది",
+        "Mandi usually peaks on Wednesdays": "మండి సాధారణంగా బుధవారాల్లో గరిష్టంగా ఉంటుంది",
+        "Mandi usually peaks on Fridays": "మండి సాధారణంగా శుక్రవారాల్లో గరిష్టంగా ఉంటుంది",
+        "Mandi usually peaks on Saturdays": "మండి సాధారణంగా శనివారాల్లో గరిష్టంగా ఉంటుంది"
+    },
+    "chart": {
+        "title": "లాభాల పోలిక చార్ట్",
+        "revenue": "ఆదాయం",
+        "totalCost": "మొత్తం ఖర్చు",
+        "netProfit": "నికర లాభం",
+        "highestProfit": "అత్యధిక లాభం",
+        "profitRange": "లాభం పరిధి",
+        "averageProfit": "సగటు లాభం"
+    },
+    "map": {
+        "title": "రూట్ విజువలైజేషన్",
+        "yourLocation": "మీ స్థానం",
+        "distance": "దూరం",
+        "netProfit": "నికర లాభం",
+        "price": "ధర",
+        "legend": {
+            "yourLocation": "మీ స్థానం",
+            "bestMandi": "ఉత్తమ మండి (అత్యంత లాభదాయకమైనది)",
+            "poolPartners": "పూల్ భాగస్వాములు",
+            "otherMandis": "ఇతర మండిలు"
+        }
+    },
+    "aboutText": "భారతీయ వ్యవసాయ రంగం కోసం ఆధునిక సాంకేతికతతో నిర్మించబడింది",
+    "units": {
+        "kg": "కిలో",
+        "quintal": "క్వింటాల్",
+        "ton": "టన్ను"
+    },
+    "rideShare": {
+        "label": "రైడ్ షేర్ / పూల్",
+        "description": "ట్రక్ ఖర్చులపై 40% వరకు ఆదా చేయడానికి ఇతర రైతులతో కలిసి పూల్ అవ్వండి",
+        "active": "రైడ్ షేర్ సక్రియంగా ఉంది",
+        "savings": "రైడ్ షేర్ పొదుపు: ₹{{amount}}",
+        "opportunity": "రైడ్-షేర్ అవకాశం లభించింది!",
+        "withPool": "పూలింగ్ తో",
+        "solo": "ఒంటరిగా",
+        "impact": "పూలింగ్ రవాణా ఖర్చును 40% తగ్గిస్తుంది మరియు నికర లాభాన్ని {{percentage}}% పెంచుతుంది",
+        "nearbyFarmer": "{{name}} కూడా సమీప ప్రాంతం ({{distance}} కిమీ దూరంలో) నుండి {{mandi}}కి వెళ్తున్నారు.",
+        "switchNow": "₹{{amount}} ఆదా చేయడానికి రైడ్-షేర్‌కి మారండి",
+        "opportunitiesTitle": "సమీప పూల్ అవకాశాలు",
+        "opportunitiesSubtitle": "స్థలాన్ని పంచుకోండి, ఇంధన ఖర్చులను ఆదా చేయండి!",
+        "joinPool": "పూల్‌లో చేరండి"
+    }
+}

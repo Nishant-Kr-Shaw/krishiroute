@@ -1,0 +1,166 @@
+{
+    "appTitle": "ಕೃಷಿ ರೂಟ್",
+    "appSubtitle": "ದತ್ತಾಂಶ ಆಧಾರಿತ ಲಾಜಿಸ್ಟಿಕ್ಸ್ ನಿರ್ಧಾರಗಳೊಂದಿಗೆ ರೈತರನ್ನು ಸಬಲೀಕರಣಗೊಳಿಸುವುದು",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "error": "ದೋಷ:",
+    "optimizationFailed": "ಆಪ್ಟಿಮೈಸೇಶನ್ ವಿಫಲವಾಗಿದೆ",
+    "connectionError": "ಸರ್ವರ್‌ಗೆ ಸಂಪರ್ಕಿಸಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಬ್ಯಾಕೆಂಡ್ ಚಾಲನೆಯಲ್ಲಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
+    "features": "ವೈಶಿಷ್ಟ್ಯಗಳು",
+    "about": "ಬಗ್ಗೆ",
+    "techStack": "React • Node.js • MongoDB • Leaflet",
+    "rightsReserved": "© 2024 ಕೃಷಿ ರೂಟ್. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.",
+    "fuel": {
+        "liveDiesel": "ಲೈವ್ ಡೀಸೆಲ್ ದರ"
+    },
+    "hero": {
+        "title": "ಸ್ಮಾರ್ಟ್ ಲಾಜಿಸ್ಟಿಕ್ಸ್‌ನೊಂದಿಗೆ ನಿಮ್ಮ ಲಾಭವನ್ನು ಹೆಚ್ಚಿಸಿ",
+        "subtitle": "ನಿಮ್ಮ ಉತ್ಪನ್ನಗಳಿಗೆ ಉತ್ತಮ ಮಂಡಿಯನ್ನು ಹುಡುಕಿ, ಬೆಲೆ ಮತ್ತು ಸಾರಿಗೆ ವೆಚ್ಚಗಳಿಗಾಗಿ ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲಾಗಿದೆ.",
+        "formTitle": "ಸಾಗಣೆಯ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ"
+    },
+    "form": {
+        "cropType": "ಬೆಳೆಯ ವಿಧ",
+        "quantityQuintals": "ಪ್ರಮಾಣ",
+        "vehicleType": "ವಾಹನದ ವಿಧ",
+        "customVehicle": "ಕಸ್ಟಮ್ ವಾಹನ",
+        "addCustomVehicle": "ಕಸ್ಟಮ್ ವಾಹನವನ್ನು ಸೇರಿಸಿ",
+        "removeCustomVehicle": "ಕಸ್ಟಮ್ ವಾಹನವನ್ನು ತೆಗೆದುಹಾಕಿ",
+        "vehicleName": "ವಾಹನದ ಹೆಸರು",
+        "vehicleNamePlaceholder": "ಉದಾ., ನನ್ನ ಟ್ರಕ್, ಬಾಡಿಗೆ ವ್ಯಾನ್",
+        "mileageRate": "ಮೈಲೇಜ್ ದರ (₹/ಕಿಮೀ)",
+        "costPreview": "100 ಕಿಮೀ ವೆಚ್ಚ",
+        "yourLocation": "ನಿಮ್ಮ ಸ್ಥಳ",
+        "useGPS": "GPS ಬಳಸಿ",
+        "gettingLocation": "ಪಡೆಯಲಾಗುತ್ತಿದೆ...",
+        "search": "ಹುಡುಕಿ",
+        "manual": "ಮ್ಯಾನುಯಲ್",
+        "enterCropName": "ಬೆಳೆಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ (ಉದಾ., ಜೋಳ, ಕಬ್ಬು, ಹತ್ತಿ)",
+        "latitude": "ಅಕ್ಷಾಂಶ",
+        "longitude": "ರೇಖಾಂಶ",
+        "findBestMandi": "ಉತ್ತಮ ಮಂಡಿಯನ್ನು ಹುಡುಕಿ",
+        "optimizing": "ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+        "headerSubtitlePart1": "ನಿಮ್ಮ ಉತ್ಪನ್ನಗಳಿಗೆ ಉತ್ತಮ ಮಂಡಿಯನ್ನು ಹುಡುಕಿ",
+        "headerSubtitlePart2": "ಲಾಭ"
+    },
+    "crops": {
+        "onion": "ಈರುಳ್ಳಿ",
+        "potato": "ಆಲೂಗಡ್ಡೆ",
+        "tomato": "ಟೊಮೆಟೊ",
+        "rice": "ಭತ್ತ",
+        "wheat": "ಗೋಧಿ",
+        "other": "✏️ ಇತರೆ (ಕಸ್ಟಮ್)"
+    },
+    "vehicles": {
+        "tractor": "ಟ್ರಾಕ್ಟರ್",
+        "tataAce": "ಟಾಟಾ ಏಸ್",
+        "truck": "ಟ್ರಕ್",
+        "miniTruck": "ಮಿನಿ ಟ್ರಕ್",
+        "tempo": "ಟೆಂಪೋ"
+    },
+    "results": {
+        "title": "ಆಪ್ಟಿಮೈಸೇಶನ್ ಫಲಿತಾಂಶಗಳು",
+        "subtitle": "{{distance}} ಕಿಮೀ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ {{total}} ಮಂಡಿಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಲಾಗಿದೆ",
+        "perishability": {
+            "warning": "ಬೆಳೆ ಹಾಳಾಗುವ ಎಚ್ಚರಿಕೆ",
+            "spoilage": "ನಿರೀಕ್ಷಿತ ಹಾನಿ",
+            "potentialLoss": "ಸಂಭವನೀಯ ನಷ್ಟ",
+            "adjustedProfit": "ಹೊಂದಾಣಿಕೆಯ ಲಾಭ",
+            "localAlternative": "ಸ್ಥಾನಿಕ ಆಯ್ಕೆಯನ್ನು ಪರಿಗಣಿಸಿ"
+        },
+        "winner": {
+            "bestChoice": "ಉತ್ತಮ ಆಯ್ಕೆ",
+            "netProfit": "ನಿವ್ವಳ ಲಾಭ",
+            "distance": "ದೂರ",
+            "price": "ಬೆಲೆ",
+            "extraProfit": "ಸ್ಥಳೀಯ ಮಂಡಿಗಿಂತ ₹{{amount}} ಹೆಚ್ಚು ಗಳಿಸಿ"
+        },
+        "recommendation": {
+            "bestIsLocal": "ನಿಮ್ಮ ಉತ್ತಮ ಆಯ್ಕೆ {{bestMandi}}, ಇದು ಹತ್ತಿರದ ಮಾರುಕಟ್ಟೆಯೂ ಆಗಿದೆ. ವಿಶ್ವಾಸದಿಂದ ಮುಂದುವರಿಯಿರಿ!",
+            "travelForProfit": "{{bestMandi}} ಗೆ ಹೋಗಿ! ನಿಮ್ಮ ಸ್ಥಳೀಯ ಮಾರುಕಟ್ಟೆ {{localMandi}} ಗಿಂತ ನೀವು ₹{{amount}} ಹೆಚ್ಚು ಗಳಿಸುವಿರಿ.",
+            "slightProfit": "{{bestMandi}} ಸ್ವಲ್ಪ ಉತ್ತಮ ಲಾಭವನ್ನು ನೀಡುತ್ತದೆ (₹{{amount}} ಹೆಚ್ಚು), ಆದರೆ {{localMandi}} ಹತ್ತಿರದಲ್ಲಿದೆ. ಇಂಧನ ಮತ್ತು ಸಮಯದ ವೆಚ್ಚಗಳನ್ನು ಪರಿಗಣಿಸಿ.",
+            "stickToLocal": "{{localMandi}} ಗೆ ಅಂಟಿಕೊಳ್ಳಿ - ಇದು ಹತ್ತಿರದಲ್ಲಿದೆ ಮತ್ತು ಉತ್ತಮ ಲಾಭವನ್ನು ನೀಡುತ್ತದೆ!",
+            "worthExtraDistance": "₹{{amount}}/ಕಿಮೀ ಲಾಭವು ಹೆಚ್ಚುವರಿ ದೂರವನ್ನು ಸಮರ್ಥಿಸುತ್ತದೆ",
+            "notWorthExtraDistance": "ಹೆಚ್ಚುವರಿ ದೂರವು ಲಾಭವನ್ನು ಸಮರ್ಥಿಸದಿರಬಹುದು"
+        },
+        "nearestList": {
+            "title": "ಮಂಡಿ ಹೋಲಿಕೆ ವಿಶ್ಲೇಷಣೆ",
+            "sortedBy": "{{count}} ಮಾರುಕಟ್ಟೆ ಆಯ್ಕೆಗಳ ವಿವರವಾದ ವಿಶ್ಲೇಷಣೆ",
+            "bestProfit": "ಉತ್ತಮ ಲಾಭ",
+            "nearest": "ಹತ್ತಿರದ",
+            "closest": "ಅತ್ಯಂತ ಹತ್ತಿರದ",
+            "volatilityAlert": "ಬೆಲೆ ಕುಸಿತದ ಎಚ್ಚರಿಕೆ (3 ದಿನಗಳು)",
+            "km": "ಕಿಮೀ",
+            "perQ": "/ಕ್ವಿಂ.",
+            "revenue": "ಆದಾಯ",
+            "transportCost": "ಸಾರಿಗೆ ವೆಚ್ಚ",
+            "handlingCost": "ನಿರ್ವಹಣಾ ವೆಚ್ಚ",
+            "totalCost": "ಒಟ್ಟು ವೆಚ್ಚ",
+            "margin": "ಲಾಭದ ಪ್ರಮಾಣ"
+        },
+        "featuresList": {
+            "realTimePrices": "ನೈಜ-ಸಮಯದ ಮಂಡಿ ಬೆಲೆಗಳು",
+            "profitOptimization": "ಲಾಭ ಆಪ್ಟಿಮೈಸೇಶನ್",
+            "routePlanning": "ಮಾರ್ಗ ಯೋಜನೆ",
+            "costAnalysis": "ವೆಚ್ಚ ವಿಶ್ಲೇಷಣೆ"
+        }
+    },
+    "mandis": {
+        "Kolkata Mandi": "ಕೋಲ್ಕತ್ತಾ ಮಂಡಿ",
+        "Howrah Mandi": "ಹೌರಾ ಮಂಡಿ",
+        "Barasat Mandi": "ಬಾರಾಸತ್ ಮಂಡಿ",
+        "Durgapur Mandi": "ದುರ್ಗಾಪುರ ಮಂಡಿ",
+        "Siliguri Mandi": "ಸಿಲಿಗುರಿ ಮಂಡಿ",
+        "Asansol Mandi": "ಅಸನ್ಸೋಲ್ ಮಂಡಿ",
+        "Local Market (Nearby)": "ಸ್ಥಳೀಯ ಮಾರುಕಟ್ಟೆ (ಹತ್ತಿರದಲ್ಲಿ)",
+        "District Main Mandi": "ಜಿಲ್ಲಾ ಮುಖ್ಯ ಮಂಡಿ",
+        "Regional Trading Center": "ಪ್ರಾದೇಶಿಕ ವ್ಯಾಪಾರ ಕೇಂದ್ರ"
+    },
+    "trends": {
+        "Mandi usually peaks on Mondays": "ಮಂಡಿಯು ಸಾಮಾನ್ಯವಾಗಿ ಸೋಮವಾರಗಳಲ್ಲಿ ಗರಿಷ್ಠ ಮಟ್ಟದಲ್ಲಿರುತ್ತದೆ",
+        "Mandi usually peaks on Wednesdays": "ಮಂಡಿಯು ಸಾಮಾನ್ಯವಾಗಿ ಬುಧವಾರಗಳಲ್ಲಿ ಗರಿಷ್ಠ ಮಟ್ಟದಲ್ಲಿರುತ್ತದೆ",
+        "Mandi usually peaks on Fridays": "ಮಂಡಿಯು ಸಾಮಾನ್ಯವಾಗಿ ಶುಕ್ರವಾರಗಳಲ್ಲಿ ಗರಿಷ್ಠ ಮಟ್ಟದಲ್ಲಿರುತ್ತದೆ",
+        "Mandi usually peaks on Saturdays": "ಮಂಡಿಯು ಸಾಮಾನ್ಯವಾಗಿ ಶನಿವಾರಗಳಲ್ಲಿ ಗರಿಷ್ಠ ಮಟ್ಟದಲ್ಲಿರುತ್ತದೆ"
+    },
+    "chart": {
+        "title": "ಲಾಭದ ಹೋಲಿಕೆ ಚಾರ್ಟ್",
+        "revenue": "ಆದಾಯ",
+        "totalCost": "ಒಟ್ಟು ವೆಚ್ಚ",
+        "netProfit": "ನಿವ್ವಳ ಲಾಭ",
+        "highestProfit": "ಅತಿ ಹೆಚ್ಚು ಲಾಭ",
+        "profitRange": "ಲಾಭದ ವ್ಯಾಪ್ತಿ",
+        "averageProfit": "ಸರಾಸರಿ ಲಾಭ"
+    },
+    "map": {
+        "title": "ಮಾರ್ಗ ವಿನ್ಯಾಸ",
+        "yourLocation": "ನಿಮ್ಮ ಸ್ಥಳ",
+        "distance": "ದೂರ",
+        "netProfit": "ನಿವ್ವಳ ಲಾಭ",
+        "price": "ಬೆಲೆ",
+        "legend": {
+            "yourLocation": "ನಿಮ್ಮ ಸ್ಥಳ",
+            "bestMandi": "ಉತ್ತಮ ಮಂಡಿ (ಅತಿ ಹೆಚ್ಚು ಲಾಭದಾಯಕ)",
+            "poolPartners": "ಪೂಲ್ ಪಾಲುದಾರರು",
+            "otherMandis": "ಇತರ ಮಂಡಿಗಳು"
+        }
+    },
+    "aboutText": "ಭಾರತೀಯ ಕೃಷಿ ಕ್ಷೇತ್ರಕ್ಕಾಗಿ ಆಧುನಿಕ ತಂತ್ರಜ್ಞಾನದೊಂದಿಗೆ ನಿರ್ಮಿಸಲಾಗಿದೆ",
+    "units": {
+        "kg": "ಕೆಜಿ",
+        "quintal": "ಕ್ವಿಂಟಾಲ್",
+        "ton": "ಟನ್"
+    },
+    "rideShare": {
+        "label": "ರೈಡ್ ಶೇರ್ / ಪೂಲ್",
+        "description": "ಟ್ರಕ್ ವೆಚ್ಚದಲ್ಲಿ 40% ವರೆಗೆ ಉಳಿಸಲು ಇತರ ರೈತರೊಂದಿಗೆ ಪೂಲ್ ಮಾಡಿ",
+        "active": "ರೈಡ್ ಶೇರ್ ಸಕ್ರಿಯವಾಗಿದೆ",
+        "savings": "ರೈಡ್ ಶೇರ್ ಉಳಿತಾಯ: ₹{{amount}}",
+        "opportunity": "ರೈಡ್-ಶೇರ್ ಅವಕಾಶ ಕಂಡುಬಂದಿದೆ!",
+        "withPool": "ಪೂಲಿಂಗ್ ಜೊತೆಗೆ",
+        "solo": "ಒಂಟಿಯಾಗಿ",
+        "impact": "ಪೂಲಿಂಗ್ ಸಾರಿಗೆ ವೆಚ್ಚವನ್ನು 40% ಕಡಿಮೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ನಿವ್ವಳ ಲಾಭವನ್ನು {{percentage}}% ಹೆಚ್ಚಿಸುತ್ತದೆ",
+        "nearbyFarmer": "{{name}} ಹತ್ತಿರದ ಸ್ಥಳದಿಂದ ({{distance}} ಕಿಮೀ ದೂರದಲ್ಲಿ) {{mandi}}ಗೆ ಹೋಗುತ್ತಿದ್ದಾರೆ.",
+        "switchNow": "₹{{amount}} ಉಳಿಸಲು ರೈಡ್-ಶೇರ್‌ಗೆ ಬದಲಾಯಿಸಿ",
+        "opportunitiesTitle": "ಹತ್ತಿರದ ಪೂಲ್ ಅವಕಾಶಗಳು",
+        "opportunitiesSubtitle": "ಜಾಗವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ, ಇಂಧನ ವೆಚ್ಚವನ್ನು ಉಳಿಸಿ!",
+        "joinPool": "ಪೂಲ್‌ಗೆ ಸೇರಿ"
+    }
+}

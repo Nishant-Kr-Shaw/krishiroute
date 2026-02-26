@@ -1,0 +1,166 @@
+{
+    "appTitle": "कृषि रूट",
+    "appSubtitle": "किसानों को डेटा-संचालित लॉजिस्टिक्स निर्णयों के साथ सशक्त बनाना",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि:",
+    "optimizationFailed": "ऑप्टिमाइज़ेशन विफल रहा",
+    "connectionError": "सर्वर से कनेक्ट करने में विफल। कृपया सुनिश्चित करें कि बैकएंड चल रहा है।",
+    "features": "विशेषताएँ",
+    "about": "हमारे बारे में",
+    "techStack": "React • Node.js • MongoDB • Leaflet",
+    "rightsReserved": "© 2024 कृषि रूट। सर्वाधिकार सुरक्षित।",
+    "fuel": {
+        "liveDiesel": "लाइव डीजल दर"
+    },
+    "hero": {
+        "title": "स्मार्ट लॉजिस्टिक्स के साथ अपना मुनाफा अधिकतम करें",
+        "subtitle": "कीमत और परिवहन लागत के लिए अनुकूलित, अपनी उपज के लिए सबसे अच्छी मंडी खोजें।",
+        "formTitle": "शिपमेंट विवरण दर्ज करें"
+    },
+    "form": {
+        "cropType": "फसल का प्रकार",
+        "quantityQuintals": "मात्रा",
+        "vehicleType": "वाहन का प्रकार",
+        "customVehicle": "कस्टम वाहन",
+        "addCustomVehicle": "कस्टम वाहन जोड़ें",
+        "removeCustomVehicle": "कस्टम वाहन हटाएँ",
+        "vehicleName": "वाहन का नाम",
+        "vehicleNamePlaceholder": "जैसे, मेरा ट्रक, किराये की वैन",
+        "mileageRate": "माइलेज दर (₹/किमी)",
+        "costPreview": "100 किमी की लागत",
+        "yourLocation": "आपका स्थान",
+        "useGPS": "जीपीएस का उपयोग करें",
+        "gettingLocation": "प्राप्त कर रहा हूँ...",
+        "search": "खोजें",
+        "manual": "मैनुअल",
+        "enterCropName": "फसल का नाम दर्ज करें (जैसे, मक्का, गन्ना, कपास)",
+        "latitude": "अक्षांश",
+        "longitude": "देशांतर",
+        "findBestMandi": "सबसे अच्छी मंडी खोजें",
+        "optimizing": "ऑप्टिमाइज़ हो रहा है...",
+        "headerSubtitlePart1": "कीमत और परिवहन लागत के लिए अनुकूलित",
+        "headerSubtitlePart2": "मुनाफा"
+    },
+    "crops": {
+        "onion": "प्याज़",
+        "potato": "आलू",
+        "tomato": "टमाटर",
+        "rice": "चावल",
+        "wheat": "गेहूँ",
+        "other": "✏️ अन्य (कस्टम)"
+    },
+    "vehicles": {
+        "tractor": "ट्रैक्टर",
+        "tataAce": "टाटा ऐस",
+        "truck": "ट्रक",
+        "miniTruck": "मिनी ट्रक",
+        "tempo": "टेम्पो"
+    },
+    "results": {
+        "title": "ऑप्टिमाइज़ेशन परिणाम",
+        "subtitle": "{{distance}} किमी के भीतर {{total}} मंडियों का विश्लेषण किया गया",
+        "perishability": {
+            "warning": "फसल खराब होने की चेतावनी",
+            "spoilage": "प्रत्याशित खराब होना",
+            "potentialLoss": "संभावित नुकसान",
+            "adjustedProfit": "समायोजित लाभ",
+            "localAlternative": "स्थानीय विकल्प पर विचार करें"
+        },
+        "winner": {
+            "bestChoice": "सबसे अच्छा विकल्प",
+            "netProfit": "शुद्ध लाभ",
+            "distance": "दूरी",
+            "price": "कीमत",
+            "extraProfit": "स्थानीय मंडी से ₹{{amount}} अधिक कमाएं"
+        },
+        "recommendation": {
+            "bestIsLocal": "आपका सबसे अच्छा विकल्प {{bestMandi}} है, जो सबसे निकटतम मंडी भी है। आत्मविश्वास के साथ आगे बढ़ें!",
+            "travelForProfit": "{{bestMandi}} की यात्रा करें! आप {{localMandi}} में अपने स्थानीय बाजार की तुलना में ₹{{amount}} अधिक कमाएंगे।",
+            "slightProfit": "{{bestMandi}} थोड़ा बेहतर लाभ (₹{{amount}} अधिक) प्रदान करता है, लेकिन {{localMandi}} करीब है। ईंधन और समय की लागत पर विचार करें।",
+            "stickToLocal": "{{localMandi}} के साथ बने रहें - यह करीब है और सबसे अच्छा लाभ प्रदान करता है!",
+            "worthExtraDistance": "₹{{amount}}/किमी का लाभ अतिरिक्त दूरी को सही ठहराता है",
+            "notWorthExtraDistance": "अतिरिक्त दूरी लाभ लाभ को सही नहीं ठहरा सकती है"
+        },
+        "nearestList": {
+            "title": "मंडी तुलना विश्लेषण",
+            "sortedBy": "{{count}} बाजार विकल्पों के लिए विस्तृत विवरण",
+            "bestProfit": "सर्वोत्तम लाभ",
+            "nearest": "निकटतम",
+            "closest": "सबसे करीब",
+            "volatilityAlert": "कीमत गिरने की चेतावनी (3 दिन)",
+            "km": "किमी",
+            "perQ": "/क्विंटल",
+            "revenue": "राजस्व",
+            "transportCost": "परिवहन लागत",
+            "handlingCost": "हैंडलिंग लागत",
+            "totalCost": "कुल लागत",
+            "margin": "मार्जिन"
+        },
+        "featuresList": {
+            "realTimePrices": "वास्तविक समय की मंडी कीमतें",
+            "profitOptimization": "मुनाफा ऑप्टिमाइज़ेशन",
+            "routePlanning": "मार्ग योजना",
+            "costAnalysis": "लागत विश्लेषण"
+        }
+    },
+    "mandis": {
+        "Kolkata Mandi": "कोलकाता मंडी",
+        "Howrah Mandi": "हावड़ा मंडी",
+        "Barasat Mandi": "बारासात मंडी",
+        "Durgapur Mandi": "दुर्गापुर मंडी",
+        "Siliguri Mandi": "सिलीगुड़ी मंडी",
+        "Asansol Mandi": "आसनसोल मंडी",
+        "Local Market (Nearby)": "स्थानीय बाजार (निकट)",
+        "District Main Mandi": "जिला मुख्य मंडी",
+        "Regional Trading Center": "क्षेत्रीय व्यापार केंद्र"
+    },
+    "trends": {
+        "Mandi usually peaks on Mondays": "मंडी आमतौर पर सोमवार को चरम पर होती है",
+        "Mandi usually peaks on Wednesdays": "मंडी आमतौर पर बुधवार को चरम पर होती है",
+        "Mandi usually peaks on Fridays": "मंडी आमतौर पर शुक्रवार को चरम पर होती है",
+        "Mandi usually peaks on Saturdays": "मंडी आमतौर पर शनिवार को चरम पर होती है"
+    },
+    "chart": {
+        "title": "लाभ तुलना चार्ट",
+        "revenue": "राजस्व",
+        "totalCost": "कुल लागत",
+        "netProfit": "शुद्ध लाभ",
+        "highestProfit": "सर्वाधिक लाभ",
+        "profitRange": "लाभ सीमा",
+        "averageProfit": "औसत लाभ"
+    },
+    "map": {
+        "title": "मार्ग दृश्य",
+        "yourLocation": "आपका स्थान",
+        "distance": "दूरी",
+        "netProfit": "शुद्ध लाभ",
+        "price": "कीमत",
+        "legend": {
+            "yourLocation": "आपका स्थान",
+            "bestMandi": "सर्वश्रेष्ठ मंडी (सर्वाधिक लाभदायक)",
+            "poolPartners": "पूल पार्टनर्स",
+            "otherMandis": "अन्य मंडियां"
+        }
+    },
+    "aboutText": "भारतीय कृषि क्षेत्र के लिए आधुनिक तकनीक के साथ बनाया गया",
+    "units": {
+        "kg": "किग्रा",
+        "quintal": "क्विंटल",
+        "ton": "टन"
+    },
+    "rideShare": {
+        "label": "राइड शेयर / पूल",
+        "description": "ट्रक की लागत पर 40% तक बचाने के लिए अन्य किसानों के साथ पूल करें",
+        "active": "राइड शेयर सक्रिय",
+        "savings": "राइड शेयर बचत: ₹{{amount}}",
+        "opportunity": "राइड-शेयर का अवसर मिला!",
+        "withPool": "पूलिंग के साथ",
+        "solo": "अकेले",
+        "impact": "पूलिंग परिवहन लागत को 40% कम करती है और शुद्ध लाभ को {{percentage}}% बढ़ाती है",
+        "nearbyFarmer": "{{name}} भी पास के स्थान ({{distance}} किमी दूर) से {{mandi}} जा रहे हैं।",
+        "switchNow": "₹{{amount}} बचाने के लिए राइड-शेयर पर स्विच करें",
+        "opportunitiesTitle": "आस-पास पूल के अवसर",
+        "opportunitiesSubtitle": "जगह साझा करें, ईंधन की लागत बचाएं!",
+        "joinPool": "पूल में शामिल हों"
+    }
+}

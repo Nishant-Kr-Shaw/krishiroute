@@ -1,0 +1,166 @@
+{
+    "appTitle": "કૃષિ રૂટ",
+    "appSubtitle": "ડેટા-આધારિત લોજિસ્ટિક્સ નિર્ણયો સાથે ખેડૂતોને સશક્ત બનાવવા",
+    "loading": "લોડ થઈ રહ્યું છે...",
+    "error": "ભૂલ:",
+    "optimizationFailed": "ઑપ્ટિમાઇઝેશન નિષ્ફળ રહ્યું",
+    "connectionError": "સર્વર સાથે કનેક્ટ કરવામાં નિષ્ફળ. કૃપા કરીને ખાતરી કરો કે બેકએન્ડ ચાલુ છે.",
+    "features": "વિશેષતાઓ",
+    "about": "વિશે",
+    "techStack": "React • Node.js • MongoDB • Leaflet",
+    "rightsReserved": "© 2024 કૃષિ રૂટ. તમામ હકો સ્વાધીન.",
+    "fuel": {
+        "liveDiesel": "લાઈવ ડીઝલ દર"
+    },
+    "hero": {
+        "title": "સ્માર્ટ લોજિસ્ટિક્સ સાથે તમારો નફો વધારો",
+        "subtitle": "તમારા પાક માટે શ્રેષ્ઠ મંડી શોધો, જે કિંમત અને પરિવહન ખર્ચ માટે શ્રેષ્ઠ છે.",
+        "formTitle": "શિપમેન્ટની વિગતો દાખલ કરો"
+    },
+    "form": {
+        "cropType": "પાકનો પ્રકાર",
+        "quantityQuintals": "જથ્થો",
+        "vehicleType": "વાહનનો પ્રકાર",
+        "customVehicle": "કસ્ટમ વાહન",
+        "addCustomVehicle": "કસ્ટમ વાહન ઉમેરો",
+        "removeCustomVehicle": "કસ્ટમ વાહન દૂર કરો",
+        "vehicleName": "વાહનનું નામ",
+        "vehicleNamePlaceholder": "દા.ત., મારી ટ્રક, રેન્ટલ વેન",
+        "mileageRate": "માઇલેજ દર (₹/કિમી)",
+        "costPreview": "100 કિમી માટે ખર્ચ",
+        "yourLocation": "તમારું સ્થાન",
+        "useGPS": "GPS નો ઉપયોગ કરો",
+        "gettingLocation": "મેળવી રહ્યું છે...",
+        "search": "શોધો",
+        "manual": "મેન્યુઅલ",
+        "enterCropName": "પાકનું નામ દાખલ કરો (દા.ત., મકાઈ, શેરડી, કપાસ)",
+        "latitude": "અક્ષાંશ",
+        "longitude": "રેખાંશ",
+        "findBestMandi": "શ્રેષ્ઠ મંડી શોધો",
+        "optimizing": "ઑપ્ટિમાઇઝ કરી રહ્યું છે...",
+        "headerSubtitlePart1": "તમારા પાક માટે શ્રેષ્ઠ મંડી શોધો",
+        "headerSubtitlePart2": "નફો"
+    },
+    "crops": {
+        "onion": "ડુંગળી",
+        "potato": "બટાકા",
+        "tomato": "ટામેટા",
+        "rice": "ડાંગર",
+        "wheat": "ઘઉં",
+        "other": "✏️ અન્ય (કસ્ટમ)"
+    },
+    "vehicles": {
+        "tractor": "ટ્રેક્ટર",
+        "tataAce": "ટાટા એસ",
+        "truck": "ટ્રક",
+        "miniTruck": "મિની ટ્રક",
+        "tempo": "ટેમ્પો"
+    },
+    "results": {
+        "title": "ઑપ્ટિમાઇઝેશન પરિણામો",
+        "subtitle": "{{distance}} કિમીમાં {{total}} મંડીઓનું વિશ્લેષણ કર્યું",
+        "perishability": {
+            "warning": "પાક બગડવાની ચેતવણી",
+            "spoilage": "અપેક્ષિત બગાડ",
+            "potentialLoss": "સંભવિત નુકસાન",
+            "adjustedProfit": "એડજસ્ટ કરેલ નફો",
+            "localAlternative": "સ્થાનિક વિકલ્પનો વિચાર કરો"
+        },
+        "winner": {
+            "bestChoice": "શ્રેષ્ઠ પસંદગી",
+            "netProfit": "ચોખ્ખો નફો",
+            "distance": "અંતર",
+            "price": "કિંમત",
+            "extraProfit": "સ્થાનિક મંડી કરતા ₹{{amount}} વધુ કમાઓ"
+        },
+        "recommendation": {
+            "bestIsLocal": "તમારો શ્રેષ્ઠ વિકલ્પ {{bestMandi}} છે, જે નજીકની બજાર પણ છે. આત્મવિશ્વાસ સાથે આગળ વધો!",
+            "travelForProfit": "{{bestMandi}} પર જાઓ! તમે તમારી સ્થાનિક બજાર {{localMandi}} કરતા ₹{{amount}} વધુ કમાશો.",
+            "slightProfit": "{{bestMandi}} થોડો સારો નફો આપે છે (₹{{amount}} વધુ), પરંતુ {{localMandi}} નજીક છે. બળતણ અને સમયના ખર્ચનો વિચાર કરો.",
+            "stickToLocal": "{{localMandi}} સાથે જોડાયેલા રહો - તે નજીક છે અને શ્રેષ્ઠ નફો આપે છે!",
+            "worthExtraDistance": "₹{{amount}}/કિમીનો નફો વધારાના અંતરને યોગ્ય ઠેરવે છે",
+            "notWorthExtraDistance": "વધારાનું અંતર નફાના ફાયદાને યોગ્ય ન ઠેરવી શકે"
+        },
+        "nearestList": {
+            "title": "મંડી તુલના વિશ્લેષણ",
+            "sortedBy": "{{count}} બજાર વિકલ્પોની વિગતવાર માહિતી",
+            "bestProfit": "શ્રેષ્ઠ નફો",
+            "nearest": "નજીકની",
+            "closest": "સૌથી નજીક",
+            "volatilityAlert": "કિંમત ઘટાડાની ચેતવણી (3 દિવસ)",
+            "km": "કિમી",
+            "perQ": "/ક્વિં.",
+            "revenue": "મહેસૂલ",
+            "transportCost": "પરિવહન ખર્ચ",
+            "handlingCost": "હેન્ડલિંગ ખર્ચ",
+            "totalCost": "કુલ ખર્ચ",
+            "margin": "માર્જિન"
+        },
+        "featuresList": {
+            "realTimePrices": "રીઅલ-ટાઇમ મંડીના ભાવ",
+            "profitOptimization": "નફો ઑપ્ટિમાઇઝેશન",
+            "routePlanning": "રૂટ પ્લાનિંગ",
+            "costAnalysis": "ખર્ચ વિશ્લેષણ"
+        }
+    },
+    "mandis": {
+        "Kolkata Mandi": "કોલકાતા મંડી",
+        "Howrah Mandi": "હાવડા મંડી",
+        "Barasat Mandi": "બારાસત મંડી",
+        "Durgapur Mandi": "દુર્ગાપુર મંડી",
+        "Siliguri Mandi": "સિલીગુડી મંડી",
+        "Asansol Mandi": "આસનસોલ મંડી",
+        "Local Market (Nearby)": "સ્થાનિક બજાર (નજીકમાં)",
+        "District Main Mandi": "જિલ્લા મુખ્ય મંડી",
+        "Regional Trading Center": "પ્રાદેશિક ટ્રેડિંગ સેન્ટર"
+    },
+    "trends": {
+        "Mandi usually peaks on Mondays": "મંડી સામાન્ય રીતે સોમવારે ટોચ પર હોય છે",
+        "Mandi usually peaks on Wednesdays": "મંડી સામાન્ય રીતે બુધવારે ટોચ પર હોય છે",
+        "Mandi usually peaks on Fridays": "મંડી સામાન્ય રીતે શુક્રવારે ટોચ પર હોય છે",
+        "Mandi usually peaks on Saturdays": "મંડી સામાન્ય રીતે શનિવારે ટોચ પર હોય છે"
+    },
+    "chart": {
+        "title": "નફો તુલના ચાર્ટ",
+        "revenue": "મહેસૂલ",
+        "totalCost": "કુલ ખર્ચ",
+        "netProfit": "ચોખ્ખો નફો",
+        "highestProfit": "સૌથી વધુ નફો",
+        "profitRange": "નફો શ્રેણી",
+        "averageProfit": "સરેરાશ નફો"
+    },
+    "map": {
+        "title": "રૂટ વિઝ્યુલાઇઝેશન",
+        "yourLocation": "તમારું સ્થાન",
+        "distance": "અંતਰ",
+        "netProfit": "ચોખ્ખો નફો",
+        "price": "કિંમત",
+        "legend": {
+            "yourLocation": "તમારું સ્થાન",
+            "bestMandi": "શ્રેષ્ઠ મંડી (સૌથી વધુ નફાકારક)",
+            "poolPartners": "પૂલ ભાગીદારો",
+            "otherMandis": "અન્ય મંડીઓ"
+        }
+    },
+    "aboutText": "ભારતીય કૃષિ ક્ષેત્ર માટે આધુનિક ટેકનોલોજી સાથે બનાવવામાં આવ્યું છે",
+    "units": {
+        "kg": "કિલો",
+        "quintal": "ક્વિન્ટલ",
+        "ton": "ટન"
+    },
+    "rideShare": {
+        "label": "રાઇડ શેર / પૂલ",
+        "description": "ટ્રક ખર્ચ પર 40% સુધી બચાવવા માટે અન્ય ખેડૂતો સાથે પૂલ કરો",
+        "active": "રાઇડ શેર સક્રિય",
+        "savings": "રાઇડ શેર બચત: ₹{{amount}}",
+        "opportunity": "રાઈડ-શેરની તક મળી!",
+        "withPool": "પૂલિંગ સાથે",
+        "solo": "એકલા",
+        "impact": "પૂલિંગ પરિવહન ખર્ચમાં 40% ઘટાડો કરે છે અને ચોખ્ખા નફામાં {{percentage}}% વધારો કરે છે",
+        "nearbyFarmer": "{{name}} પણ નજીકના સ્થળેથી ({{distance}} કિમી દૂર) {{mandi}} જઈ રહ્યા છે.",
+        "switchNow": "₹{{amount}} બચાવવા માટે રાઈડ-શેર પર સ્વિચ કરો",
+        "opportunitiesTitle": "નજીકની પૂલ તકો",
+        "opportunitiesSubtitle": "જગ્યા શેર કરો, બળતણ ખર્ચ બચાવો!",
+        "joinPool": "પૂલમાં જોડાઓ"
+    }
+}

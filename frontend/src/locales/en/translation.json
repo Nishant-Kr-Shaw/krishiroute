@@ -1,0 +1,166 @@
+{
+    "appTitle": "Krishi Route",
+    "appSubtitle": "Empowering farmers with data-driven logistics decisions",
+    "loading": "Loading...",
+    "error": "Error:",
+    "optimizationFailed": "Optimization failed",
+    "connectionError": "Failed to connect to server. Please ensure backend is running.",
+    "features": "Features",
+    "about": "About",
+    "techStack": "React • Node.js • MongoDB • Leaflet",
+    "rightsReserved": "© 2024 Krishi Route. All rights reserved.",
+    "fuel": {
+        "liveDiesel": "Live Diesel Price"
+    },
+    "hero": {
+        "title": "Maximize Your Profits with Smart Logistics",
+        "subtitle": "Find the best mandi for your produce, optimized for price and transport costs.",
+        "formTitle": "Enter Shipment Details"
+    },
+    "form": {
+        "cropType": "Crop Type",
+        "quantityQuintals": "Quantity",
+        "vehicleType": "Vehicle Type",
+        "customVehicle": "Custom Vehicle",
+        "addCustomVehicle": "Add Custom Vehicle",
+        "removeCustomVehicle": "Remove Custom Vehicle",
+        "vehicleName": "Vehicle Name",
+        "vehicleNamePlaceholder": "e.g., My Truck, Rental Van",
+        "mileageRate": "Mileage Rate (₹/km)",
+        "costPreview": "Cost for 100km",
+        "yourLocation": "Your Location",
+        "useGPS": "Use GPS",
+        "gettingLocation": "Getting...",
+        "search": "Search",
+        "manual": "Manual",
+        "enterCropName": "Enter crop name (e.g., corn, sugarcane, cotton)",
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "findBestMandi": "Find Best Mandi",
+        "optimizing": "Optimizing...",
+        "headerSubtitlePart1": "Find the best mandi for your produce",
+        "headerSubtitlePart2": "PROFIT"
+    },
+    "crops": {
+        "onion": "Onion",
+        "potato": "Potato",
+        "tomato": "Tomato",
+        "rice": "Rice",
+        "wheat": "Wheat",
+        "other": "✏️ Other (Custom)"
+    },
+    "vehicles": {
+        "tractor": "Tractor",
+        "tataAce": "Tata Ace",
+        "truck": "Truck",
+        "miniTruck": "Mini Truck",
+        "tempo": "Tempo"
+    },
+    "results": {
+        "title": "Optimization Results",
+        "subtitle": "Analyzed {{total}} mandis within {{distance}} km",
+        "perishability": {
+            "warning": "Crop Perishability Warning",
+            "spoilage": "Expected Spoilage",
+            "potentialLoss": "Potential Loss",
+            "adjustedProfit": "Adjusted Profit",
+            "localAlternative": "Consider Local Option"
+        },
+        "winner": {
+            "bestChoice": "Best Choice",
+            "netProfit": "Net Profit",
+            "distance": "Distance",
+            "price": "Price",
+            "extraProfit": "Earn ₹{{amount}} more than local mandi"
+        },
+        "recommendation": {
+            "bestIsLocal": "Your best option is {{bestMandi}}, which is also the nearest market. Go ahead with confidence!",
+            "travelForProfit": "Travel to {{bestMandi}}! You'll earn ₹{{amount}} more than your local market at {{localMandi}}.",
+            "slightProfit": "{{bestMandi}} offers slightly better profit (₹{{amount}} more), but {{localMandi}} is closer. Consider fuel and time costs.",
+            "stickToLocal": "Stick with {{localMandi}} - it's closer and offers the best profit!",
+            "worthExtraDistance": "Gain of ₹{{amount}}/km justifies extra distance",
+            "notWorthExtraDistance": "Extra distance may not justify the profit gain"
+        },
+        "nearestList": {
+            "title": "Mandi Comparison Analysis",
+            "sortedBy": "Detailed breakdown for {{count}} market options",
+            "bestProfit": "Best Profit",
+            "nearest": "Nearest",
+            "closest": "Closest",
+            "volatilityAlert": "Price Drop Alert (3 days)",
+            "km": "km",
+            "perQ": "/Q",
+            "revenue": "Revenue",
+            "transportCost": "Transport Cost",
+            "handlingCost": "Handling Cost",
+            "totalCost": "Total Cost",
+            "margin": "margin"
+        },
+        "featuresList": {
+            "realTimePrices": "Real-time mandi prices",
+            "profitOptimization": "Profit optimization",
+            "routePlanning": "Route planning",
+            "costAnalysis": "Cost analysis"
+        }
+    },
+    "mandis": {
+        "Kolkata Mandi": "Kolkata Mandi",
+        "Howrah Mandi": "Howrah Mandi",
+        "Barasat Mandi": "Barasat Mandi",
+        "Durgapur Mandi": "Durgapur Mandi",
+        "Siliguri Mandi": "Siliguri Mandi",
+        "Asansol Mandi": "Asansol Mandi",
+        "Local Market (Nearby)": "Local Market (Nearby)",
+        "District Main Mandi": "District Main Mandi",
+        "Regional Trading Center": "Regional Trading Center"
+    },
+    "trends": {
+        "Mandi usually peaks on Mondays": "Mandi usually peaks on Mondays",
+        "Mandi usually peaks on Wednesdays": "Mandi usually peaks on Wednesdays",
+        "Mandi usually peaks on Fridays": "Mandi usually peaks on Fridays",
+        "Mandi usually peaks on Saturdays": "Mandi usually peaks on Saturdays"
+    },
+    "chart": {
+        "title": "Profit Comparison Chart",
+        "revenue": "Revenue",
+        "totalCost": "Total Cost",
+        "netProfit": "Net Profit",
+        "highestProfit": "Highest Profit",
+        "profitRange": "Profit Range",
+        "averageProfit": "Average Profit"
+    },
+    "map": {
+        "title": "Route Visualization",
+        "yourLocation": "Your Location",
+        "distance": "Distance",
+        "netProfit": "Net Profit",
+        "price": "Price",
+        "legend": {
+            "yourLocation": "Your Location",
+            "bestMandi": "Best Mandi (Most Profitable)",
+            "poolPartners": "Pool Partners",
+            "otherMandis": "Other Mandis"
+        }
+    },
+    "aboutText": "Built with modern tech stack for Indian agricultural sector",
+    "units": {
+        "kg": "kg",
+        "quintal": "Quintal",
+        "ton": "Ton"
+    },
+    "rideShare": {
+        "label": "Ride Share / Pool",
+        "description": "Pool with other farmers to save up to 40% on truck costs",
+        "active": "Ride Share Active",
+        "savings": "Ride Share Savings: ₹{{amount}}",
+        "opportunity": "Ride-Share Opportunity Found!",
+        "withPool": "With Pooling",
+        "solo": "Solo",
+        "impact": "Pooling reduces transport cost by 40% and increases net margin by {{percentage}}%",
+        "nearbyFarmer": "{{name}} is also going to {{mandi}} from a nearby location ({{distance}}km away).",
+        "switchNow": "Switch to Ride-Share to save ₹{{amount}}",
+        "opportunitiesTitle": "Nearby Pool Opportunities",
+        "opportunitiesSubtitle": "Share space, save fuel costs!",
+        "joinPool": "Join Pool"
+    }
+}

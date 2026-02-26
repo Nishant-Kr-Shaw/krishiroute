@@ -1,0 +1,114 @@
+.map-container {
+    margin: 3rem 0;
+}
+
+.map-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.map-wrapper {
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.map-wrapper .leaflet-container {
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.map-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.legend-marker {
+    width: 32px;
+    height: 32px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    border: 3px solid white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legend-marker.green {
+    background: #e74c3c;
+}
+
+.legend-marker.green::after {
+    content: '🏠';
+    transform: rotate(45deg);
+    font-size: 18px;
+}
+
+.legend-marker.gold {
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+}
+
+.legend-marker.gold::after {
+    content: '⭐';
+    transform: rotate(45deg);
+    font-size: 16px;
+}
+
+.legend-marker.blue {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.legend-marker.blue::after {
+    content: '🏪';
+    transform: rotate(45deg);
+    font-size: 14px;
+}
+
+.popup-content {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.popup-label {
+    font-weight: 600;
+    color: #666;
+}
+
+.profit-value {
+    color: #4CAF50;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .map-wrapper {
+        padding: 1rem;
+    }
+
+    .map-wrapper .leaflet-container {
+        height: 400px !important;
+    }
+
+    .map-legend {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+}

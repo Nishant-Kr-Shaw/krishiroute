@@ -1,0 +1,116 @@
+.chart-container {
+    margin: 3rem 0;
+}
+
+.chart-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.chart-wrapper {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.custom-tooltip {
+    background: white;
+    border: 2px solid #667eea;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.tooltip-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #333;
+    margin: 0 0 0.75rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.tooltip-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.tooltip-label {
+    color: #666;
+}
+
+.tooltip-value {
+    font-weight: 700;
+}
+
+.tooltip-item.revenue .tooltip-value {
+    color: #4CAF50;
+}
+
+.tooltip-item.cost .tooltip-value {
+    color: #f5576c;
+}
+
+.tooltip-item.profit .tooltip-value {
+    color: #667eea;
+    font-size: 1.1rem;
+}
+
+.chart-insights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.insight-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.insight-card:hover {
+    transform: translateY(-4px);
+}
+
+.insight-icon {
+    font-size: 2.5rem;
+}
+
+.insight-content {
+    flex: 1;
+}
+
+.insight-label {
+    color: #666;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+}
+
+.insight-value {
+    color: #667eea;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .chart-wrapper {
+        padding: 1rem;
+    }
+
+    .chart-insights {
+        grid-template-columns: 1fr;
+    }
+}
