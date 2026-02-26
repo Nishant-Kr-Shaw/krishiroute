@@ -3,20 +3,20 @@
     "name": "krishi-route",
     "rewrites": [
         {
-            "src": "/api/(.*)",
+            "source": "/api/(.*)",
             "dest": "/backend/server.js"
         },
         {
-            "src": "/assets/(.*)",
+            "source": "/assets/(.*)",
             "dest": "/frontend/build/assets/$1"
         },
         {
-            "src": "/(.*)",
+            "source": "/(.*)",
             "dest": "/frontend/build/$1",
             "continue": true
         },
         {
-            "src": "/(.*)",
+            "source": "/(.*)",
             "dest": "/frontend/build/index.html"
         }
     ]
