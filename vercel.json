@@ -12,8 +12,7 @@
         },
         {
             "source": "/(.*)",
-            "destination": "/frontend/build/$1",
-            "continue": true
+            "destination": "/frontend/build/$1"
         },
         {
             "source": "/(.*)",
