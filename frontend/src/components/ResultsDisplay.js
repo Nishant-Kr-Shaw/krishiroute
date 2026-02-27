@@ -8,7 +8,7 @@ const ResultsDisplay = ({ data, onSwitchToRideShare }) => {
     if (!data || !data.optimization) return null;
 
     const { optimization, results, metadata } = data;
-    const { bestMandi, localMandi, extraProfit, recommendation, worthExtraDistance, perishability } = optimization;
+    const { bestMandi, localMandi, extraProfit, worthExtraDistance, perishability } = optimization;
 
     // Sort by distance and take only top 5 nearest
     const sortedByDistance = [...results].sort((a, b) => a.distance - b.distance);

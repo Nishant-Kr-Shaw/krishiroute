@@ -4,7 +4,7 @@ import LocationSearch from './LocationSearch';
 import './InputForm.css';
 
 const InputForm = ({ onSubmit, loading, initialIsRideShare = false }) => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const [formData, setFormData] = useState({
         crop: 'onion',
         quantity: 20,
